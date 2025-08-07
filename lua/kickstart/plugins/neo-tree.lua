@@ -11,12 +11,12 @@ return {
   },
   lazy = false,
   keys = {
-    { '\\', ':Neotree reveal right<CR>', desc = 'NeoTree reveal', silent = true },
+    { '\\', ':Neotree reveal float<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
     filesystem = {
       window = {
-        position = 'right',
+        position = 'float',
         mappings = {
           ['\\'] = 'close_window',
         },
