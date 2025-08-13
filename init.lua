@@ -985,7 +985,7 @@ require('lazy').setup({
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.toggleterm',
-  require 'kickstart.plugins.langmapper',
+  -- require 'kickstart.plugins.langmapper',
   require 'kickstart.plugins.lazygit',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
